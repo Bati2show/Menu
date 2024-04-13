@@ -100,8 +100,9 @@
         button {
             padding: 25px; /* Increase padding for a larger button */
             font-size: 25px
-            background-color: #DDDDDD;
+            background-color: #FF8C32 !important;
             border-radius: 8px;
+            color: white;
         }
 
         /* Grill Animation */
@@ -147,6 +148,7 @@
         .dot.active {
             background-color: #555;
         }
+
     </style>
     <title>Menú de Restaurante</title>
 </head>
@@ -235,8 +237,8 @@
 
         </div>
         <div class="navigation">
-            <button onclick="prevItem()">Anterior</button>
-            <button onclick="nextItem()">Siguiente</button>
+            <button onclick="prevItem()" style="background-color: #FF8C32;">Anterior</button>
+            <button onclick="nextItem()" style="background-color: #FF8C32;">Siguiente</button>
         </div>
         <div class="navigation-dots" id="navigationDots">
             <!-- Add 10 dots here -->
